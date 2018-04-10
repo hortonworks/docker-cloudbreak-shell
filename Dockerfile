@@ -5,7 +5,7 @@ RUN apt-get install zip
 RUN apt-get install bash
 
 
-ENV VERSION 1.16.7-rc.1
+ENV VERSION 1.16.7-rc.2
 ADD https://cloudbreak-maven.s3.amazonaws.com/releases/com/sequenceiq/cloudbreak-shell/$VERSION/cloudbreak-shell-$VERSION.jar /cloudbreak-shell.jar
 
 COPY logback.xml /logback.xml
